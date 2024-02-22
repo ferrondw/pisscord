@@ -37,11 +37,14 @@ const UsersState = {
     }
 }
 
-const io = new Server(expressServer, {
+const io = new Server(expressServer)
+/*
+, {
     cors: {
         origin: process.env.NODE_ENV === "production" ? false : ["http://127.0.0.1:3500"]
     }
-})
+}
+*/
 
 io.on('connection', socket => {
     console.log(`User ${socket.id} connected`)
