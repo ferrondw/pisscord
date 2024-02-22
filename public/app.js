@@ -1,4 +1,4 @@
-const socket = io('https://pisscord.onrender.com')
+const socket = io('https://pisscord6.netlify.app')
 
 const messageInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
