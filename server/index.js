@@ -39,7 +39,7 @@ const UsersState = {
 
 const io = new Server(expressServer, {
     cors: {
-        origin: process.env.NODE_ENV === "production" ? false : ["http://192.168.2.66:3500"]
+        origin: process.env.NODE_ENV === "production" ? false : ["http://127.0.0.1:3500"]
     }
 })
 
