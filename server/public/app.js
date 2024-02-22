@@ -1,4 +1,4 @@
-const socket = io('ws://192.168.2.66:3500')
+const socket = io('https://pisscord.onrender.com')
 
 const messageInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
